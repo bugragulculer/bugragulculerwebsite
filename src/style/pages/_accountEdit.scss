@@ -1,0 +1,46 @@
+.account__form {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: stretch;
+  justify-content: center;
+  margin: 32px;
+  .two__columns {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .address__form {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+    justify-content: center;
+  }
+  label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    input {
+      padding: 16px;
+      border: solid 1px #ddd;
+      border-radius: 50px;
+      font-family: $main-font;
+      font-size: 16px;
+      background-color: transparent;
+    }
+  }
+  .button__group {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+}

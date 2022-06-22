@@ -1,0 +1,91 @@
+.admin__blog__posts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 32px;
+  .admin__blog__posts__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    a {
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 50px;
+      box-shadow: $shadow-1;
+      transition: $transition-slow;
+      &:hover {
+        box-shadow: $shadow-1-hover;
+        transition: $transition-slow;
+      }
+      &:active {
+        box-shadow: $shadow-1-focus;
+        transition: $transition-slow;
+      }
+    }
+  }
+  table {
+    border-radius: 12px;
+    overflow: hidden;
+
+    border-collapse: separate;
+    border-spacing: 0px;
+    *border-collapse: expression("separate", cellSpacing= "10px");
+    th {
+      background-color: $primary-color-3;
+    }
+    th,
+    td {
+      margin: 0.5em 1em;
+      padding: 24px 16px;
+      text-align: start;
+      button {
+        background-color: transparent;
+        border: solid 0px transparent;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.app--light {
+  .admin__blog__posts {
+    table {
+      border-radius: 12px;
+      overflow: hidden;
+      border: solid 1px $light-color-5;
+      border-collapse: separate;
+      border-spacing: 0px;
+      *border-collapse: expression("separate", cellSpacing= "10px");
+      tr {
+        border-bottom: solid 1px $light-color-5;
+      }
+      th {
+        background-color: $primary-color-3;
+        color: $light-color-1;
+      }
+    }
+  }
+}
+
+.app--dark {
+  .admin__blog__posts {
+    table {
+      border-radius: 12px;
+      overflow: hidden;
+      border: solid 1px $dark-color-5;
+      border-collapse: separate;
+      border-spacing: 0px;
+      *border-collapse: expression("separate", cellSpacing= "10px");
+      tr {
+        border-bottom: solid 1px $dark-color-5;
+      }
+      th {
+        background-color: $primary-color-3;
+        color: $light-color-1;
+      }
+    }
+  }
+}

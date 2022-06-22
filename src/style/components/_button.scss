@@ -1,0 +1,137 @@
+.button--warning {
+  background-color: $error;
+  color: $light-color-1;
+  border: solid 0px transparent;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button--outline {
+  border: solid 0px transparent;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+  width: unset;
+}
+
+.button--text {
+  background-color: transparent;
+  border: solid 0px transparent;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button--tab {
+  background-color: transparent;
+  border: solid 0px transparent;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.button--tab--active {
+  //background-color: $primary-color-3;
+  border: solid 2px $primary-color-3;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.button--primary {
+  background-color: $primary-color-3;
+  color: $light-color-1;
+  border: solid 0px transparent;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.button--large {
+  padding: 16px 24px;
+  text-decoration: none;
+}
+
+.button--medium {
+  padding: 8px 16px;
+}
+
+.button--small {
+  padding: 4px 8px;
+}
+
+.app--light {
+  .button--warning {
+    color: $light-color-1;
+  }
+  .button--primary {
+    color: $light-color-1;
+    svg {
+      color: $light-color-1;
+      height: 24px;
+      width: 24px;
+    }
+  }
+  .button--outline {
+    background-color: transparent;
+    color: $dark-color-1;
+    border: solid 1px $primary-color-3;
+    svg {
+      height: 24px;
+      width: 24px;
+      margin: 0;
+    }
+  }
+}
+
+.app--dark {
+  .button--warning {
+    color: $light-color-1;
+  }
+  .button--primary {
+    color: $light-color-1;
+    svg {
+      color: $light-color-1;
+      height: 24px;
+      width: 24px;
+    }
+  }
+  .button--outline {
+    background-color: transparent;
+    color: $light-color-1;
+    border: solid 1px $primary-color-3;
+    svg {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}

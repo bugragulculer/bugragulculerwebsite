@@ -1,0 +1,24 @@
+.admin__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: min-content;
+  padding: 4px;
+  border-radius: 48px;
+  box-shadow: $shadow-4;
+  a {
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 12px 16px;
+  }
+  .active {
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 12px 16px;
+    background-color: $primary-color-3;
+    border-radius: 24px;
+    color: $light-color-1;
+  }
+}

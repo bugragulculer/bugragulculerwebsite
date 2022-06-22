@@ -1,0 +1,26 @@
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: $shadow-5;
+  font-family: $main-font;
+}
+
+.toast--info {
+  background-color: $info;
+  color: $light-color-1;
+}
+.toast--success {
+  background-color: $success;
+  color: $light-color-1;
+}
+.toast--error {
+  background-color: $error;
+  color: $light-color-1;
+}
+.toast--warning {
+  background-color: $warning;
+  color: $light-color-1;
+}

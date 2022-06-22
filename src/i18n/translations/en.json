@@ -1,0 +1,188 @@
+{
+  "navbar": {
+    "blog": "blog",
+    "discord": "discord",
+    "about": "about",
+    "signin": "signin",
+    "signout": "signout",
+    "account": "account",
+    "light": "light",
+    "dark": "dark"
+  },
+  "footer": {
+    "contact": "contact",
+    "pages": "pages",
+    "home": "home",
+    "blog": "blog",
+    "discord": "discord",
+    "about": "about"
+  },
+  "home": {
+    "heroSection": {
+      "header": "helping people to make the world a better place through quality software",
+      "primary-button": "read the blog",
+      "secondary-button": "watch a video"
+    },
+    "introduction": {
+      "video": "introduction video (2:13)",
+      "header": "hi! I'm buğra gülcüler. I help people make the world better through quality software.",
+      "paragraph": "I'm also a big extreme sports enthusiast. When I'm not hanging out with my family or at the computer you can find me cruising around on my onewheel or hitting the slopes on my snowboard when it's cold.",
+      "action": "learn more about me"
+    },
+    "problemSolution": {
+      "header": "unleash your full potential with react.",
+      "paragraph": "this is your place to learn web development. I want this website to be your main source to change the web.",
+      "action": "learn more",
+      "courses": {
+        "header": "courses",
+        "paragraph": "I've been teaching people just like you how to build better software for over 8 years. Tens of thousands of people have increased their confidence in shipping software with TestingJavaScript.com and even more have improved the performance and maintainability of their React applications from what they've learned from EpicReact.dev.",
+        "action": "explore the courses",
+        "url": ""
+      },
+      "youtube": {
+        "header": "youtube",
+        "paragraph": "I've been teaching people just like you how to build better software for over 8 years. Tens of thousands of people have increased their confidence in shipping software with TestingJavaScript.com and even more have improved the performance and maintainability of their React applications from what they've learned from EpicReact.dev.",
+        "action": "explore my videos",
+        "url": "/content"
+      },
+      "blog": {
+        "header": "blog",
+        "paragraph": "My blog posts have been read many times on Medium before. Now, they are on my own website! There you'll find blogs about software, programming, hardware, your career, and and more.",
+        "action": "explore blog posts",
+        "url": "/blog"
+      }
+    },
+    "youtube": {
+      "header": "I'm on YouTube!",
+      "subheader": "this is your place to learn development and software. I want this channel to be your main source to change the web."
+    }, 
+    "blogSection": {
+      "header": "blog posts.",
+      "subheader": "recommended for you.",
+      "action": "explore more"
+    },
+    "courseSection": {
+      "header": "time to shine",
+      "subheader": "dive into my courses",
+      "action": "explore courses"
+    },
+    "discordSection": {
+      "header": "meet others to solve your problems and learn new things",
+      "subheader": "join our discord community to discover your best version",
+      "action": "learn more on discord"
+    },
+    "blog": {
+      "blogHeader": "Learn about technology, software and development!",
+      "searchBlog": "Search blog by topics",
+      "featuredArticle": "Featured Article",
+      "readFullArticle": "Read Full Article"
+    },
+    "newsletter": {
+      "header": "Join my Newsletter",
+      "subheader": "I'm sending a newsletter about the content I publish and some front-end tips and tricks. There will be no spam, just quality contentn, I promise.",
+      "name": "Name",
+      "nameholder": "Name Surname",
+      "email": "Email Address",
+      "emailholder": "Email",
+      "join": "join"
+    },
+    "discord": {
+      "header": "Make new friends on my discord server.",
+      "subheader": " Contribute to be better on programming, technology and software.",
+      "action": "learn more on discord"
+    }
+  },
+  "blog": {
+    "blogHeader": "Learn about technology, software and development!",
+    "searchBlog": "Search blog by topics",
+    "featuredArticle": "Featured Article",
+    "readFullArticle": "Read Full Article"
+  },
+  "discord": {
+    "header": "Make new friends on my discord server.",
+    "subheader": " Contribute to be better on programming, technology and software.",
+    "reasons": "There are many reasons to join the server.",
+    "firstQuestion": "What is it?",
+    "firstP": "Discord is a chat application. The KCD Community on Discord is a community of people who want to make connections, share ideas, and use software to help make the world a better place.",
+    "secondQuestion": "Make connections and share ideas",
+    "secondP": "We're better when we work together. Discord allows us to have meaningful and nuanced conversations about building software. This community is a fantastic place to get and provide feedback on fun and interesting ideas. We're all motivated to use software to make the world better in a wide variety of ways. Got a project you've been working on? Want to discover facinating ways people are using software? This is the place to be.",
+    "allCategories": "Here's a quick look at all categories",
+    "action": "Click on any category to get more info.",
+    "tabs": {
+      "first": "1. welcome",
+      "firstDesc": "General information about the community, rules, and other stuff.",
+      "second": "2. clubs",
+      "secondDesc": "Looking for something specific? You may find it on out clubs. From front-end development to back-end, you will find many things.",
+      "third": "3. programming",
+      "thirdDesc": "Isn't it obvious? Problems, findings about your favorite programming lanugages are here!",
+      "fourth": "4. software",
+      "fourthDesc": "Did you find something useful? It changed your life? How about sharing with us!",
+      "fifth": "5. tech",
+      "fifthDesc": "I wish every month new iPhone is released but that is not happening. Let's share other tech you liked.",
+      "sixth": "6. life",
+      "sixthDesc": "Let's admit, we're not robots, we don't want to be. Connect with people, learn how they solve daily struggles.",
+      "seventh": "7. content",
+      "seventhDesc": "This is where I shine! If something good is up on the internet, let people know.",
+      "eight": "8. suggestions",
+      "eightDesc": "Nobody is perfect, if you got any feedback or suggestion hit us up."
+    },
+    "finalCall": "Life is better with friends. Find them on discord.",
+    "joinCall": "Join Discord"
+  },
+  "about": {
+    "greeting": "Hi There,",
+    "intro": "I'm a Designer, Software Developer, and Content Creator!",
+    "intro2": "Hi, I'm Buğra. 👨🏻‍💻 It is nice to see you here.",
+    "intro3": "I've been designing and developing websites for two years and it couldn't be more exciting.",
+    "designer": {
+      "header": "designer",
+      "paragraph": "I love dealing with simple designs and associating different things, no matter what type of content.",
+      "secondHeader": "Things I Love Designing",
+      "secondSubheader": "UI, Apps, Web, Illustration, Poster",
+      "thirdHeader": "Design Tools",
+      "Tools": {
+        "1": "Affinity Designer",
+        "2": "Adobe Photoshop",
+        "3": "Figma",
+        "4": "Webflow",
+        "5": "Invision",
+        "6": "Pen & Paper"
+      }
+    },
+    "developer": {
+      "header": "front-end developer",
+      "paragraph": "I love to plan and develop things from scratch and blend different ideas in the same pot.",
+      "secondHeader": "Languages & Libraries I Know",
+      "secondSubheader": "Javascript, HTML, CSS, React, SASS, Firebase, TypeScript, Redux",
+      "thirdHeader": "Dev tools",
+      "Tools": {
+        "1": "Terminal",
+        "2": "Git & GitHub",
+        "3": "Storybook",
+        "4": "Visual Studio Code",
+        "5": "Codepen"
+      }
+    },
+    "projects": {
+      "projects": "Projects",
+      "toolsy": "Etsy Seller Analytics tool. Analyze and Follow Your Etsy Competitors Without Was",
+      "tokentree": "Contributing to a small team of engineers to develop next-gen web3 apps.",
+      "producter": "Contributed to develop the documentation module of product management tool producter."
+    },
+    "buttons": {
+      "github": "see more on GitHub",
+      "dribbble": "see more on Dribbble"
+    },
+    "content": {
+      "header": "my content",
+      "paragraph": "I publish different types of content, from Youtube videos to blog posts.",
+      "youtube": "youtube",
+      "youtubeP": "I publish videos on my YouTube Channel about programming, technology, software and lifestyle.",
+      "videos": "My Latest Videos",
+      "read": "Do you prefer reading?",
+      "readP": "I publish blog posts on different topics. Here are some examples!",
+      "readButton": "all articles",
+      "socialMedia": "Follow me on Social Media"
+    }
+  }
+}

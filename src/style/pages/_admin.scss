@@ -1,0 +1,25 @@
+.admin__page__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin__cubes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+  max-width: 1200px;
+  padding: 16px;
+  div {
+    box-shadow: $shadow-4;
+    min-height: 200px;
+    width: calc(100% - 32px);
+    border-radius: 8px;
+    padding: 16px;
+  }
+}

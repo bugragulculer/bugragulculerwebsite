@@ -1,0 +1,190 @@
+{
+  "navbar": {
+    "blog": "blog",
+    "discord": "discord",
+    "about": "hakkımda",
+    "signin": "giriş yap",
+    "signout": "çıkış yap",
+    "account": "hesap",
+    "light": "açık",
+    "dark": "koyu"
+  },
+  "footer": {
+    "contact": "iletişim",
+    "pages": "sayfalar",
+    "home": "ana sayfa",
+    "blog": "blog",
+    "discord": "discord",
+    "about": "hakkımda"
+  },
+  "home": {
+    "heroSection": {
+      "header": "insanların kaliteli yazılımlar aracılığıyla dünyayı daha iyi bir yer haline getirmelerine yardımcı oluyourm",
+      "primary-button": "blogumu gider",
+      "secondary-button": "bir video izleyin"
+    },
+    "introduction": {
+      "video": "tanıtım videosu",
+      "header": "merhaba! Ben buğra gülcüler. Kaliteli yazılımlar aracılığıyla insanların dünyayı daha iyi hale getirmelerine yardımcı oluyorum.",
+      "paragraph": "Aynı zamanda büyük bir otomobil ve lego tutkunuyum. Ailemle veya bilgisayarla takılmadığım zamanlarda, beni lego yaparken ya da arabalarla ilgilenirken bulabilirsiniz.",
+      "action": "hakkımda daha fazlasını okuyun"
+    },
+    "problemSolution": {
+      "header": "unleash your full potential with react.",
+      "paragraph": "this is your place to learn web development. I want this website to be your main source to change the web.",
+      "action": "learn more",
+      "courses": {
+        "header": "courses",
+        "paragraph": "I've been teaching people just like you how to build better software for over 8 years. Tens of thousands of people have increased their confidence in shipping software with TestingJavaScript.com and even more have improved the performance and maintainability of their React applications from what they've learned from EpicReact.dev.",
+        "action": "explore the courses",
+        "url": ""
+      },
+      "youtube": {
+        "header": "youtube",
+        "paragraph": "I've been teaching people just like you how to build better software for over 8 years. Tens of thousands of people have increased their confidence in shipping software with TestingJavaScript.com and even more have improved the performance and maintainability of their React applications from what they've learned from EpicReact.dev.",
+        "action": "videolarımı inceleyin",
+        "url_tr": "https://www.youtube.com/channel/UCz-QyCCL_itusMxXAU1V6zw",
+        "url_en": "https://www.youtube.com/channel/UCbxvcNnIvtiF_1VZKMPyWCA"
+      },
+      "blog": {
+        "header": "blog",
+        "paragraph": "Blog yazılarım daha önce Medium'da birçok kez okundu. Ve artık kendi web sitemdeler! Blogumda yazılım, programlama, donanım, kariyeriniz ve daha fazlası hakkında yazılar bulabilirsiniz.",
+        "action": "yazılarımı inceleyin",
+        "url_tr": "/blog",
+        "url_en": "/blog"
+      }
+    },
+    "youtube": {
+      "header": "Ayrıca YouTube'dayım!",
+      "subheader": "Burası geliştirme ve yazılım öğrenme yeriniz. Bu kanalın web'i değiştirmek için ana kaynağınız olmasını istiyorum."
+    }, 
+    "blogSection": {
+      "header": "blog postları",
+      "subheader": "sizin için öneriler.",
+      "action": "daha fazlasını görün"
+    },
+    "courseSection": {
+      "header": "time to shine",
+      "subheader": "dive into my courses",
+      "action": "explore courses"
+    },
+    "discordSection": {
+      "header": "sorunlarınızı çözmek ve yeni şeyler öğrenmek için başkalarıyla tanışın",
+      "subheader": "en iyi versiyonunuzu keşfetmek için discord topluluğuma katılın",
+      "action": "discord'da daha fazla bilgi edinin"
+    },
+    "blog": {
+      "blogHeader": "yazılım, geliştirme ve teknolojiyle alakalı daha fazla şey öğrenin",
+      "searchBlog": "Kategorilere göre yazılarımı arayın",
+      "featuredArticle": "Öne çıkan makale",
+      "readFullArticle": "Tüm makaleyi okuyun"
+    },
+    "newsletter": {
+      "header": "Bültenime katılın",
+      "subheader": "Yayınladığım içerik ve bazı geliştirme ipuçları ve püf noktaları hakkında bir bülten gönderiyorum. Spam olmayacak, sadece kaliteli içerik söz veriyorum.",
+      "name": "Adınız",
+      "nameholder": "Ad Soyad",
+      "email": "Email Adresiniz",
+      "emailholder": "Email",
+      "join": "katıl"
+    },
+    "discord": {
+      "header": "Discord sunucumda yeni arkadaşlar edinin.",
+      "subheader": "Programlama, teknoloji ve yazılım konularında daha iyi olmaya katkıda bulunun.",
+      "action": "discord'da daha fazla bilgi edinin"
+    }
+  },
+  "blog": {
+    "blogHeader": "yazılım, geliştirme ve teknolojiyle alakalı daha fazla şey öğrenin",
+    "searchBlog": "Kategorilere göre yazılarımı arayın",
+    "featuredArticle": "Öne çıkan makale",
+    "readFullArticle": "Tüm makaleyi okuyun"
+  },
+  "discord": {
+    "header": "Discord sunucumda yeni arkadaşlar edin.",
+    "subheader": " Programlama, teknoloji ve yazılım konusunda daha iyi olmaya katkıda bulunun.",
+    "reasons": "Sunucuya katılmanız için birçok neden var.",
+    "firstQuestion": "Discord da nedir?",
+    "firstP": "Discord bir sohbet uygulamasıdır. Discord'daki Buğra Gülcüler Topluluğu, dünyayı daha iyi bir yer haline getirmeye yardımcı olmak için bağlantı kurmak, fikir paylaşmak ve yazılım kullanmak isteyen insanlardan oluşan bir topluluktur.",
+    "secondQuestion": "Bağlantılar kurun ve fikirlerinizi paylaşın",
+    "secondP": "Birlikte çalıştığımızda daha iyiyiz. Discord, yazılım geliştirme hakkında anlamlı ve incelikli konuşmalar yapmamızı sağlar. Bu topluluk, eğlenceli ve ilginç fikirler hakkında geri bildirim almak ve sağlamak için harika bir yerdir. Hepimiz, dünyayı çok çeşitli şekillerde daha iyi hale getirmek için yazılım kullanmaya motive oluyoruz. Üzerinde çalıştığın bir proje var mı? İnsanların yazılımı kullanmanın çekici yollarını keşfetmek ister misiniz? Burası olman gereken yer.",
+    "allCategories": "İşte tüm kategorilere hızlı bir bakış",
+    "action": "Daha fazla bilgi almak için herhangi bir kategoriye tıklayın.",
+    "tabs": {
+      "first": "1. hoşgeldiniz",
+      "firstDesc": "Topluluk, kurallar ve diğer şeyler hakkında genel bilgiler.",
+      "second": "2. klüpler",
+      "secondDesc": "Belirli bir şey mi arıyorsunuz? Bunu kulüplerde bulabilirsiniz. Front-end geliştirmeden back-end'e kadar birçok şey bulacaksınız.",
+      "third": "3. geliştirme",
+      "thirdDesc": "Açık değil mi? Sorunlar, favori programlama dillerinizle ilgili bulgular burada!",
+      "fourth": "4. yazılım",
+      "fourthDesc": "İşe yarar bir şey buldun mu? Hayatını değiştirdi? Bizimle paylaşmaya ne dersin!",
+      "fifth": "5. teknoloji",
+      "fifthDesc": "Keşke her ay yeni iPhone çıksa ama olmuyor. Beğendiğiniz diğer teknolojileri paylaşalım.",
+      "sixth": "6. hayat",
+      "sixthDesc": "Kabul edelim ki robot değiliz, olmak istemiyoruz. İnsanlarla bağlantı kurun, onların günlük mücadeleleri nasıl çözdüklerini öğrenin.",
+      "seventh": "7. içerik",
+      "seventhDesc": "Burası benim parladığım yer! İnternette iyi bir şey olursa, insanlara haber ver.",
+      "eight": "8. öneriler",
+      "eightDesc": "Kimse mükemmel değildir, herhangi bir geri bildirim veya öneriniz varsa bize ulaşın."
+    },
+    "finalCall": "Hayat arkadaşlarla daha güzel. Onları discord'da bulun.",
+    "joinCall": "Discord'a katıl"
+  },
+  "about": {
+    "greeting": "Merhaba,",
+    "intro": "Tasarımcı, Yazılım Geliştirici ve İçerik Yaratıcısıyım!",
+    "intro2": "Merhaba, ben Buğra. 👨🏻‍💻 Sizi burada görmek çok güzel.",
+    "intro3": "Uzun süredir web siteleri ve uygulamalar tasarlıyor ve geliştiriyorum.",
+    "designer": {
+      "header": "tasarımcı",
+      "paragraph": "İçeriğin türü ne olursa olsun minimalist tasarımlarla uğraşmayı ve farklı şeyleri ilişkilendirmeyi seviyorum.",
+      "secondHeader": "Tasarlamayı sevdiğim şeyler",
+      "secondSubheader": "UI, Uygulamalar, Web, Ilüstrasyon, Poster",
+      "thirdHeader": "Tasarım Araçları",
+      "Tools": {
+        "1": "Affinity Designer",
+        "2": "Adobe Photoshop",
+        "3": "Figma",
+        "4": "Webflow",
+        "5": "Invision",
+        "6": "Pen & Paper"
+      }
+    },
+    "developer": {
+      "header": "ön-yüz",
+      "paragraph": "Bir şeyleri sıfırdan planlayıp geliştirmeyi ve farklı fikirleri aynı potada harmanlamayı seviyorum.",
+      "secondHeader": "Bildiğim diller ve kütüphaneler",
+      "secondSubheader": "Javascript, HTML, CSS, React, SASS, Firebase, TypeScript, Redux",
+      "thirdHeader": "Geliştirme Araçları",
+      "Tools": {
+        "1": "Terminal",
+        "2": "Git & GitHub",
+        "3": "Storybook",
+        "4": "Visual Studio Code",
+        "5": "Codepen"
+      }
+    },
+    "projects": {
+      "projects": "Projeler",
+      "toolsy": "Etsy Satıcı Analitiği aracı. Etsy Rakiplerinizi Vakit Kaybetmeden Analiz Edin ve Takip Edin. Küçük bir ekiple büyük işler oluşturuyoruz",
+      "tokentree": "Yeni nesil web3 uygulamaları geliştirmek için küçük bir mühendis ekibine katkıda bulunuyorum",
+      "producter": "Producter ürün yönetim aracının dokümantasyon modülünün geliştirilmesine katkıda bulundu."
+    },
+    "buttons": {
+      "github": "GitHub'da fazlasını gör",
+      "dribbble": "Dribbble'da fazlasını gör"
+    },
+    "content": {
+      "header": "içeriklerim",
+      "paragraph": "Youtube videolarından blog yazılarına kadar farklı türde içerikler yayınlıyorum.",
+      "youtube": "youtube",
+      "youtubeP": "YouTube Kanalımda programlama, teknoloji, yazılım ve yaşam tarzı hakkında videolar yayınlıyorum.",
+      "videos": "Son Videolarım",
+      "read": "Okumayı mı tercih ediyorsunuz?",
+      "readP": "Farklı konularda blog yazıları yayınlıyorum. İşte bazı örnekler!",
+      "readButton": "tüm yazılarım",
+      "socialMedia": "Beni sosyal medyada takip edin"
+    }
+  }
+}

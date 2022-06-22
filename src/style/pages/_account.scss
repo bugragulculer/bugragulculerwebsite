@@ -1,0 +1,45 @@
+.account__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+}
+
+.account__cubes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+  max-width: 1200px;
+  padding: 16px;
+  .single__cube {
+    border: solid 1px #ddd;
+    min-height: max-content;
+    width: calc(100% - 32px);
+    border-radius: 8px;
+    padding: 16px;
+    min-height: 120px;
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.app--light {
+  .account__container {
+    background-color: transparent !important;
+  }
+}
+
+.app--dark {
+  .account__container {
+    background-color: transparent !important;
+  }
+}

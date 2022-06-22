@@ -1,0 +1,48 @@
+.tags__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    label {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      input {
+        width: 100%;
+        margin: 16px 0;
+        box-shadow: inset $shadow-1;
+        padding: 16px;
+        border: solid 0px transparent;
+        border-radius: 24px;
+        font-family: $main-font;
+        font-size: 16px;
+        background-color: transparent;
+      }
+    }
+  }
+  div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 600px;
+    margin-top: 32px;
+    span {
+      display: flex;
+      flex-direction: column;
+      div {
+        display: flex;
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+}
