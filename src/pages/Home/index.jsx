@@ -27,12 +27,29 @@ const Home = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>About | Bugra Gulculer</title>
+        <title>Bugra Gulculer</title>
         <meta
           name="description"
           content="Home of Bugra Gulculer, Front-end Developer, Designer and Content Creator"
         />
         <html lang={lang} amp />
+
+        <meta property="og:title" content="Bugra Gulculer" />
+        <meta
+          property="og:description"
+          content="Home of Bugra Gulculer, Front-end Developer, Designer and Content Creator"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Buğra Gülcüler" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Bugra Gulculer" />
+        <meta
+          name="twitter:description"
+          content="Home of Bugra Gulculer, Front-end Developer, Designer and Content Creator"
+        />
+        <meta name="twitter:site" content="@bugragulculer" />
+        <meta name="twitter:creator" content="@bugragulculer" />
       </Helmet>
       <main className="header__containers">
         <section className="bugra__intro">
@@ -121,8 +138,8 @@ const Home = () => {
           <div className="problem__solution__details">
             <div className="content__wrapper">
               <div>
-                <h2>I'm on YouTube!</h2>
-                <h3>{i18next.t("home.problemSolution.paragraph")}</h3>
+                <h2>{i18next.t("home.youtube.header")}</h2>
+                <h3>{i18next.t("home.youtube.subheader")}</h3>
               </div>
               <iframe
                 src="https://www.youtube.com/embed/F_hwsZcm2j4"

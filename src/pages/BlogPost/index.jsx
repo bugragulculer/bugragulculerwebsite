@@ -93,6 +93,24 @@ const BlogPost = () => {
             content={blog.description.blocks[0].data.text}
           />
           <html lang={lang} amp />
+          <meta property="og:title" content={blog.name} />
+          <meta
+            property="og:description"
+            content={blog.description.blocks[0].data.text}
+          />
+          <meta property="og:type" content="article" />
+          <meta property="og:site_name" content="Buğra Gülcüler" />
+          <meta property="og:image" content={blog.images[0].url} />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={blog.name} />
+          <meta
+            name="twitter:description"
+            content={blog.description.blocks[0].data.text}
+          />
+          <meta name="twitter:site" content="@bugragulculer" />
+          <meta name="twitter:image" content={blog.images[0].url} />
+          <meta name="twitter:creator" content="@bugragulculer" />
         </Helmet>
         <main>
           <h3>

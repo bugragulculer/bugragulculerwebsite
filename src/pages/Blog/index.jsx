@@ -60,6 +60,28 @@ const Blog = () => {
           content="Blog of Bugra Gulculer | Technology, Front-end, React, Software Articles"
         />
         <html lang={lang} amp />
+        <meta
+          property="og:title"
+          content="Blog | Technology, Software | Bugra Gulculer"
+        />
+        <meta
+          property="og:description"
+          content="Blog of Bugra Gulculer | Technology, Front-end, React, Software Articles"
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Buğra Gülcüler" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Blog | Technology, Software | Bugra Gulculer"
+        />
+        <meta
+          name="twitter:description"
+          content="Blog of Bugra Gulculer | Technology, Front-end, React, Software Articles"
+        />
+        <meta name="twitter:site" content="@bugragulculer" />
+        <meta name="twitter:creator" content="@bugragulculer" />
       </Helmet>
       <div className="blog__header">
         <h1>{i18next.t("blog.blogHeader")}</h1>
