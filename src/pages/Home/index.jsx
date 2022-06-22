@@ -54,7 +54,7 @@ const Home = () => {
           property="og:description"
           content="Home of Bugra Gulculer, Front-end Developer, Designer and Content Creator"
         />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website"/>
         <meta property="og:site_name" content="Buğra Gülcüler" />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -191,7 +191,6 @@ const Home = () => {
               <label for="mce-NAME">{i18next.t("home.newsletter.name")}</label>
               <input
                 type="text"
-                value=""
                 name="NAME"
                 className=""
                 id="mce-NAME"
@@ -204,7 +203,6 @@ const Home = () => {
               </label>
               <input
                 type="email"
-                value=""
                 name="EMAIL"
                 className="required email"
                 id="mce-EMAIL"
