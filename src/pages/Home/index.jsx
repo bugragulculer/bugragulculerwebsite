@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import React, { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { BlogList } from "../../components";
 import { Helmet } from "react-helmet";
@@ -16,12 +16,27 @@ import {
 } from "../../assets";
 import { LottieIcon } from "../../components";
 import i18next from "../../i18n/i18n";
+import { setLoading } from "../../state/actions/miscActions";
+import { getAllBlog } from "../../state/actions/blogActions";
+import { getAllTags } from "../../state/actions/tagsActions";
 
 const Home = () => {
   const blogPosts = useSelector((state) => state.blog);
   const lang = useSelector((state) => state.lang);
   const theme = useSelector((state) => state.theme);
   const [tab, setTab] = useState("blog");
+  const dispatch = useDispatch();
+
+  const fetchBlog = () => {
+    dispatch(getAllBlog());
+    dispatch(getAllTags());
+  };
+  useEffect(() => {
+    fetchBlog();
+
+    window.scrollTo(0, 0);
+    return () => dispatch(setLoading(false));
+  }, []);
 
   return (
     <div>

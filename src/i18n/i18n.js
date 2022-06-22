@@ -17,7 +17,10 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: window.localStorage.getItem("language"), // for now
+  lng:
+    window.localStorage.getItem("language") === null
+      ? "en"
+      : window.localStorage.getItem("language"), // for now
   interpolation: {
     escapeValue: false, // react already safes from xss
   },

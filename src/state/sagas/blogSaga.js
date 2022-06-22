@@ -51,8 +51,9 @@ function* blogSaga({ type, payload }) {
     case GET_ALL_BLOG:
       try {
         yield initRequest();
+        console.log("payload", payload);
         const result = yield call(getAllBlog);
-        console.log(result);
+        console.log("result", result);
         if (result.blog.length === 0) {
           handleError("No items found.");
         } else {
